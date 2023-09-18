@@ -7,26 +7,26 @@ In this case, the attacker aims to overwhelm the target system with numerous req
 
 
 *S. E. Quincozes, C. Albuquerque, D. Passos, and D. Mossé, “A survey on intrusion detection and prevention systems in digital substations,” Comput. Networks, vol. 184, no. September 2020, p. 107679, Jan. 2021, doi: 10.1016/j.comnet.2020.107679.
-T. Nguyen, S. Wang, M. Alhazmi, M. Nazemi, A. Estebsari, and P. Dehghanian, “Electric Power Grid Resilience to Cyber Adversaries: State of the Art,” IEEE Access, vol. 8, pp. 87592–87608, 2020, doi: 10.1109/ACCESS.2020.2993233.
-F. Li, X. Yan, Y. Xie, Z. Sang, and X. Yuan, “A Review of Cyber-Attack Methods in Cyber-Physical Power System,” in 2019 IEEE 8th International Conference on Advanced Power System Automation and Protection (APAP), Oct. 2019, pp. 1335–1339. doi: 10.1109/APAP47170.2019.9225126.
+<br>T. Nguyen, S. Wang, M. Alhazmi, M. Nazemi, A. Estebsari, and P. Dehghanian, “Electric Power Grid Resilience to Cyber Adversaries: State of the Art,” IEEE Access, vol. 8, pp. 87592–87608, 2020, doi: 10.1109/ACCESS.2020.2993233.
+<br>F. Li, X. Yan, Y. Xie, Z. Sang, and X. Yuan, “A Review of Cyber-Attack Methods in Cyber-Physical Power System,” in 2019 IEEE 8th International Conference on Advanced Power System Automation and Protection (APAP), Oct. 2019, pp. 1335–1339. doi: 10.1109/APAP47170.2019.9225126.
 
 ## False Data Injection (FDI)
 [FDI Flowchart]("Goose Attacker Tool/Flowcharts/FDI - EN.png")
 FDI involves an attacker deliberately injecting erroneous data or messages into the communication network *. The overarching goal of such an attack is to subvert the normal operations of the system, instigating erroneous responses, inducing system malfunctions, or in severe cases, precipitating catastrophic failures. Detection of such attacks is challenging because the attacker often has knowledge about the system and can carefully calibrate the injected data to avoid triggering alarms, making these attacks subtle and hard to identify **.
 
 *S. Hussain, J. Hernandez Fernandez, A. K. Al-Ali, and A. Shikfa, “Vulnerabilities and countermeasures in electrical substations,” Int. J. Crit. Infrastruct. Prot., vol. 33, p. 100406, Jun. 2021, doi: 10.1016/j.ijcip.2020.100406.
-**T. Nguyen, S. Wang, M. Alhazmi, M. Nazemi, A. Estebsari, and P. Dehghanian, “Electric Power Grid Resilience to Cyber Adversaries: State of the Art,” IEEE Access, vol. 8, pp. 87592–87608, 2020, doi: 10.1109/ACCESS.2020.2993233.
+<br>**T. Nguyen, S. Wang, M. Alhazmi, M. Nazemi, A. Estebsari, and P. Dehghanian, “Electric Power Grid Resilience to Cyber Adversaries: State of the Art,” IEEE Access, vol. 8, pp. 87592–87608, 2020, doi: 10.1109/ACCESS.2020.2993233.
 
 ## Replay
 [Replay Flowchart]("Goose Attacker Tool/Flowcharts/Replay - EN.png")
 In a replay attack, packets are simply delayed, and not altered, causing operational errors *. A replay attack primarily undermines the process of identity verification, thereby compromising the process of authentication **. In this scenario, an attacker resends a previously received message packet to the target host with the intent to deceive the system.
 
 *S. E. Quincozes, C. Albuquerque, D. Passos, and D. Mossé, “A survey on intrusion detection and prevention systems in digital substations,” Comput. Networks, vol. 184, no. September 2020, p. 107679, Jan. 2021, doi: 10.1016/j.comnet.2020.107679.
-**F. Li, X. Yan, Y. Xie, Z. Sang, and X. Yuan, “A Review of Cyber-Attack Methods in Cyber-Physical Power System,” in 2019 IEEE 8th International Conference on Advanced Power System Automation and Protection (APAP), Oct. 2019, pp. 1335–1339. doi: 10.1109/APAP47170.2019.9225126.
+<br>**F. Li, X. Yan, Y. Xie, Z. Sang, and X. Yuan, “A Review of Cyber-Attack Methods in Cyber-Physical Power System,” in 2019 IEEE 8th International Conference on Advanced Power System Automation and Protection (APAP), Oct. 2019, pp. 1335–1339. doi: 10.1109/APAP47170.2019.9225126.
 
 ## Spoofing
 [Replay Flowchart]("Goose Attacker Tool/Flowcharts/Spoofing - EN.png")
-Spoofing refers to the act of creating and sending falsified packets or messages that seem to come from a legitimate source in the network *. As this falsified communication carries the semblance of a legitimate publisher, it is processed as such by the subscriber devices. This deceptive interaction results in the messages coming from the legitimate publisher being ignored, leading to the omission of critical control commands that could cause power disruptions, equipment damage, and substantial safety risks in extreme scenarios.
+Spoofing refers to the act of creating and sending falsified packets or messages that seem to come from a legitimate source in the network *. As this falsified communication carries the semblance of a legitimate publisher, it is processed as such by the subscriber devices. This deceptive interaction results in the messages coming from the legitimate publisher being ignored, leading to the omission of critical control commands that could cause power disruptions, equipment damage, and substantial safety risks in extreme scenarios **.
 
 *S. E. Quincozes, C. Albuquerque, D. Passos, and D. Mossé, “A survey on intrusion detection and prevention systems in digital substations,” Comput. Networks, vol. 184, no. September 2020, p. 107679, Jan. 2021, doi: 10.1016/j.comnet.2020.107679.
-**S. Hussain, J. Hernandez Fernandez, A. K. Al-Ali, and A. Shikfa, “Vulnerabilities and countermeasures in electrical substations,” Int. J. Crit. Infrastruct. Prot., vol. 33, p. 100406, Jun. 2021, doi: 10.1016/j.ijcip.2020.100406.
+<br>**S. Hussain, J. Hernandez Fernandez, A. K. Al-Ali, and A. Shikfa, “Vulnerabilities and countermeasures in electrical substations,” Int. J. Crit. Infrastruct. Prot., vol. 33, p. 100406, Jun. 2021, doi: 10.1016/j.ijcip.2020.100406.
