@@ -3,3 +3,6 @@ The digitization of critical infrastructures, such as electric infrastructures, 
 
 ## Content
 ### [1 Attacks](https://github.com/omar-roa/GOOSEAttacker/blob/main/1%20Attacks.md)
+### [2 Tool](https://github.com/omar-roa/GOOSEAttacker/blob/main/2%20Tool)
+### [3 Code](https://github.com/omar-roa/GOOSEAttacker/blob/main/3%20Code)
+### [4 Captures](https://github.com/omar-roa/GOOSEAttacker/blob/main/4%20Captures)
